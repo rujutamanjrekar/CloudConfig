@@ -1,0 +1,12 @@
+---
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/rujutamanjrekar/CloudConfig
+          search-paths: ConfigData
+#        native:
+#          search-locations: classpath:offline-repository/          
+server:
+  port: 8001
